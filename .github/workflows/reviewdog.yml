@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: setup python2
-      - run: apk add python2
+        run: apk add python2
       - uses: actions/checkout@v2
       - name: eslint review
         uses: reviewdog/action-eslint@v1
