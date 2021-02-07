@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: setup eslint
-        run: yarn install eslint
+        run: yarn add eslint
       - uses: actions/checkout@v2
       - name: eslint review
         uses: reviewdog/action-eslint@v1
